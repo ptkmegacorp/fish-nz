@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Fish NZ — hosted trout and deep-sea fishing tours in New Zealand. Tongariro rivers and Mt Maunganui charters. Flights not included; everything on the ground is."
+      content="Fish New Zealand — guided trout and deep-sea fishing tours. Tongariro rivers, Mt Maunganui charters, hot springs, and optional rafting. Land packages from 10 days."
     />
-    <title>Fish NZ — Trout &amp; Deep Sea Tours in New Zealand</title>
+    <title>Fish New Zealand — Trout &amp; Deep Sea Fishing Tours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,8 +22,11 @@
     <header class="site-header">
       <div class="header-inner">
         <a class="logo" href="#top">
-          FISH NZ
-          <small>NEW ZEALAND</small>
+          <img class="logo-mark" src="images/mascot-trout.svg" alt="" width="48" height="24" />
+          <span class="logo-text">
+            FISH NZ
+            <small>NEW ZEALAND</small>
+          </span>
         </a>
         <button
           class="nav-toggle"
@@ -31,6 +40,7 @@
           <ul>
             <li><a href="#trips">Trips</a></li>
             <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#activities">Activities</a></li>
             <li><a href="#included">Included</a></li>
             <li><a href="#contact">Book</a></li>
           </ul>
@@ -39,81 +49,90 @@
     </header>
 
     <div id="top">
-      <section class="hero" aria-label="Introduction">
-        <img
-          class="hero-bg"
-          src="images/tongariro-river.jpg"
-          alt="Tongariro River near Turangi, New Zealand"
-          width="1600"
-          height="1200"
-        />
-        <div class="hero-overlay" aria-hidden="true"></div>
-        <div class="hero-content">
-          <p class="hero-tag">Trout · Deep sea · Hosted tours</p>
-          <h1 class="hero-mark">FISH<br />NZ</h1>
-          <p class="hero-lede">
-            The Alaska trip shape — fly water, then salt — on the other side of
-            the Pacific. You book the flight. We handle New Zealand.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#trips">See trip options</a>
-            <a class="btn btn-ghost" href="#contact">Request dates</a>
+      <section class="hero" aria-label="Welcome">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="hero-badge">Est. adventure · North Island NZ</p>
+            <h1 class="hero-mark">FISH<br />NEW<br />ZEALAND</h1>
+            <p class="hero-lede">
+              Two weeks of real fishing — rainbow trout on the Tongariro, then
+              deep-sea charters out of Mt Maunganui. We pick you up, feed you
+              well, and keep the trip simple.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#trips">Pick your trip</a>
+              <a class="btn btn-secondary" href="#contact">Get dates &amp; pricing</a>
+            </div>
+          </div>
+          <div class="hero-art">
+            <img
+              src="images/mascot-angler.svg"
+              alt="Fish New Zealand angler mascot"
+              width="200"
+              height="260"
+            />
+            <img
+              class="hero-trout"
+              src="images/mascot-trout.svg"
+              alt="Fish New Zealand trout mascot"
+              width="240"
+              height="120"
+            />
           </div>
         </div>
+        <div class="wave-divider" aria-hidden="true"></div>
       </section>
     </div>
 
     <main id="main">
       <section id="about">
-        <p class="section-label">The idea</p>
-        <h2 class="section-title">Same trip Midwestern anglers already save for — just in NZ</h2>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Welcome aboard
+        </p>
+        <h2 class="section-title">Hosted fishing tours, good value, no fuss</h2>
         <p class="section-intro">
-          Fish NZ runs semi-budget hosted fishing tours for American anglers,
-          especially retirees who want a longer trip without lodge-luxury
-          pricing. International airfare is on you; ground transport, lodging,
-          guides, group meals, and three dinners out are on us.
+          Fish New Zealand is a small-group fishing holiday on the North Island.
+          You fly to Auckland on your own schedule; from there we handle
+          transport, lodging, guides, most meals, and three dinners out with
+          the group. Comfortable stays, home-cooked breakfasts and lunches,
+          and plenty of time on the water.
         </p>
 
-        <table class="compare-table">
-          <thead>
-            <tr>
-              <th scope="col">Alaska reference</th>
-              <th scope="col">Fish NZ</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Fly to Anchorage</td>
-              <td>Fly to Auckland <em>(not included)</em></td>
-            </tr>
-            <tr>
-              <td>Lodge + guide + boat</td>
-              <td>Lodging, guides, charters, NZ transport included</td>
-            </tr>
-            <tr>
-              <td>Trout / salmon / halibut</td>
-              <td>Tongariro trout + Bay of Plenty deep sea</td>
-            </tr>
-            <tr>
-              <td>7–14 days typical</td>
-              <td>10, 14, or 21 day options</td>
-            </tr>
-            <tr>
-              <td>Premium lodge rates</td>
-              <td>Value tier — group cooking, clean stays</td>
-            </tr>
-          </tbody>
-        </table>
+        <ul class="feature-list">
+          <li>
+            <strong>Getting here</strong>
+            <span>Fly into Auckland — international airfare is not part of the land package.</span>
+          </li>
+          <li>
+            <strong>On the ground</strong>
+            <span>Lodging, guides, charter boats, and all NZ transport included.</span>
+          </li>
+          <li>
+            <strong>On the water</strong>
+            <span>Tongariro trout fishing, then Bay of Plenty deep-sea charters.</span>
+          </li>
+          <li>
+            <strong>Trip length</strong>
+            <span>Choose 10, 14, or 21 days — most guests pick 14.</span>
+          </li>
+          <li>
+            <strong>Good company</strong>
+            <span>Small groups (about 6–10 anglers), two meals a day plus three group dinners out.</span>
+          </li>
+        </ul>
       </section>
 
       <section id="trips">
-        <p class="section-label">Trip length</p>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Trip packages
+        </p>
         <h2 class="section-title">10, 14, or 21 days</h2>
         <p class="section-intro">
-          Minimum ten days because you are crossing the Pacific and fishing two
-          different fisheries. Fourteen days is the core Alaska-comparable
-          package. Twenty-one suits 60+ retirees who want weather buffer and
-          extra water time.
+          Every package covers both freshwater and saltwater fishing. Longer
+          trips mean more days on the river and offshore, plus extra time for
+          hot springs and optional add-ons.
         </p>
 
         <div class="card-grid">
@@ -121,25 +140,25 @@
             <h3>Fish NZ 10</h3>
             <p class="days">10 days · 9 nights</p>
             <ul>
-              <li>5 trout days — Tongariro / Taupō</li>
+              <li>5 trout days — Tongariro &amp; Taupō</li>
               <li>3 deep-sea days — Mt Maunganui</li>
-              <li>Travel + rest days</li>
-              <li>First-time NZ anglers</li>
+              <li>Travel and rest days built in</li>
+              <li>Great first visit to NZ</li>
             </ul>
-            <p class="price">Land package · price TBD</p>
+            <p class="price">Land package · inquire for rates</p>
             <a class="btn btn-primary" href="#contact">Inquire</a>
           </article>
 
           <article class="card card-featured">
             <h3>Fish NZ 14</h3>
-            <p class="days">14 days · 13 nights · core trip</p>
+            <p class="days">14 days · 13 nights</p>
             <ul>
               <li>6–7 trout days</li>
               <li>4–5 deep-sea charter days</li>
-              <li>2 flex / weather days</li>
-              <li>Best Alaska-comparable length</li>
+              <li>2 flex days for weather or extras</li>
+              <li>Our most popular itinerary</li>
             </ul>
-            <p class="price">Land package · price TBD</p>
+            <p class="price">Land package · inquire for rates</p>
             <a class="btn btn-primary" href="#contact">Inquire</a>
           </article>
 
@@ -147,109 +166,158 @@
             <h3>Fish NZ 21</h3>
             <p class="days">21 days · 20 nights</p>
             <ul>
-              <li>Extended trout + salt blocks</li>
+              <li>Extended trout and salt blocks</li>
               <li>Extra charter days</li>
-              <li>Weather buffer built in</li>
-              <li>Popular with 60+ retirees</li>
+              <li>Room for hot springs &amp; rafting</li>
+              <li>Ideal for a relaxed, full holiday</li>
             </ul>
-            <p class="price">Land package · price TBD</p>
+            <p class="price">Land package · inquire for rates</p>
             <a class="btn btn-primary" href="#contact">Inquire</a>
           </article>
         </div>
 
         <p class="note">
-          Group size target: 6–10 anglers per departure. Stripe deposit checkout
-          will attach here once pricing is set.
+          Deposits and secure online payment coming soon. Send an inquiry below
+          and we'll hold your preferred dates.
         </p>
       </section>
 
       <section id="destinations">
-        <p class="section-label">Where we fish</p>
-        <h2 class="section-title">Tongariro trout, then Mt Maunganui salt</h2>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Where we fish
+        </p>
+        <h2 class="section-title">River trout, then open ocean</h2>
         <p class="section-intro">
-          Auckland arrival → south to the Central North Island rivers → north-east
-          to the Bay of Plenty → depart. All in-country driving and shuttles
-          included.
+          Auckland arrival → Taupō &amp; Tongariro → Mt Maunganui &amp; Tauranga
+          → depart. Shuttles and transfers between each stop are included.
         </p>
 
         <div class="split">
           <article class="destination">
-            <img
-              src="images/tongariro-river.jpg"
-              alt="Tongariro River landscape"
-              width="800"
-              height="600"
-              loading="lazy"
-            />
+            <div class="photo-frame">
+              <img
+                src="images/tongariro-river.jpg"
+                alt="Tongariro River near Turangi"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+            </div>
             <div>
-              <h3>Tongariro &amp; Taupō — trout</h3>
+              <h3>Tongariro &amp; Taupō</h3>
               <p>
-                Fly and spin fishing on the Tongariro River system and Lake Taupō
-                tributaries. Rainbow and brown trout, classic NZ nymphing and
-                sight fishing. Base around Taupō / Turangi.
+                World-famous trout water. Fly and spin fishing for rainbow and
+                brown trout on the Tongariro River and Lake Taupō tributaries,
+                with experienced local guides.
               </p>
             </div>
           </article>
 
           <article class="destination">
-            <img
-              src="images/maunganui.jpg"
-              alt="Mount Maunganui shoreline from the summit"
-              width="1080"
-              height="1920"
-              loading="lazy"
-            />
+            <div class="photo-frame">
+              <img
+                src="images/maunganui.jpg"
+                alt="Mount Maunganui and the Bay of Plenty coastline"
+                width="1080"
+                height="1920"
+                loading="lazy"
+              />
+            </div>
             <div>
-              <h3>Mt Maunganui — deep sea</h3>
+              <h3>Mt Maunganui</h3>
               <p>
-                Bay of Plenty charters from Tauranga / Mt Maunganui. Snapper,
-                kingfish, tarakihi, and seasonal tuna or marlin. Beach-town
-                downtime between charter days.
+                Deep-sea charters on the Bay of Plenty — snapper, kingfish,
+                tarakihi, and seasonal game fish. Beach-town evenings between
+                fishing days.
               </p>
             </div>
           </article>
         </div>
 
         <figure class="destination" style="margin-top: 2rem">
-          <img
-            src="images/trout-catch.jpeg"
-            alt="Historical photograph of trout caught on the Tongariro River"
-            width="854"
-            height="600"
-            loading="lazy"
-          />
+          <div class="photo-frame">
+            <img
+              src="images/trout-catch.jpeg"
+              alt="Trout caught on the Tongariro River"
+              width="854"
+              height="600"
+              loading="lazy"
+            />
+          </div>
           <figcaption class="note" style="margin-top: 0.75rem">
-            The Tongariro is one of the world's most fished trout rivers — same
-            water, new stories.
+            The Tongariro has been drawing anglers for generations — come add
+            your name to the story.
           </figcaption>
         </figure>
       </section>
 
+      <section id="activities">
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          More than fishing
+        </p>
+        <h2 class="section-title">Rest days &amp; add-ons</h2>
+        <p class="section-intro">
+          Flex days on longer itineraries are perfect for unwinding between
+          fishing blocks. Some activities are included in the rhythm of the
+          trip; others are optional extras you can add when you book.
+        </p>
+
+        <div class="activity-grid">
+          <article class="activity-card">
+            <div class="activity-icon" aria-hidden="true">♨</div>
+            <h3>Natural hot springs</h3>
+            <p>
+              Soak in Taupō-area thermal pools and riverside hot springs — a
+              classic North Island treat between trout days. Included as part of
+              the trip schedule on 14- and 21-day packages.
+            </p>
+          </article>
+
+          <article class="activity-card optional">
+            <span class="tag">Optional extra</span>
+            <div class="activity-icon" aria-hidden="true">≋</div>
+            <h3>White-water rafting</h3>
+            <p>
+              Add a half- or full-day raft on the Tongariro River with a licensed
+              outfitter. Graded rapids, canyon scenery, and a splashy break from
+              the rod. Ask when you inquire — we'll quote it with your trip.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section id="included">
-        <p class="section-label">Package details</p>
-        <h2 class="section-title">What's in the price</h2>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Your package
+        </p>
+        <h2 class="section-title">What's included</h2>
 
         <div class="two-col-list">
           <div class="list-block included">
             <h3>Included</h3>
             <ul>
               <li>All New Zealand ground transport</li>
-              <li>Semi-budget lodging (clean, comfortable)</li>
-              <li>Guided trout days + deep-sea charter days</li>
-              <li>Two meals per day via group cooking</li>
-              <li>Three group dinners out at local restaurants</li>
-              <li>Trip host / coordinator on the ground</li>
+              <li>Comfortable lodging throughout the trip</li>
+              <li>Guided trout days and deep-sea charter days</li>
+              <li>Two meals per day (group-prepared)</li>
+              <li>Three group dinners at local restaurants</li>
+              <li>Hot springs visit on 14- &amp; 21-day trips</li>
+              <li>Trip host on the ground</li>
             </ul>
           </div>
 
           <div class="list-block excluded">
             <h3>Not included</h3>
             <ul>
-              <li>International flights (you book your own)</li>
+              <li>International flights to New Zealand</li>
               <li>Travel insurance</li>
               <li>NZ freshwater fishing license</li>
+              <li>Optional white-water rafting</li>
               <li>Alcohol outside included dinners</li>
-              <li>Single supplement (if applicable)</li>
+              <li>Single-room supplement (if needed)</li>
               <li>Guide and crew gratuities</li>
             </ul>
           </div>
@@ -257,28 +325,37 @@
       </section>
 
       <section id="matt">
-        <p class="section-label">Questions before you book</p>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Questions?
+        </p>
         <h2 class="section-title">Talk to Matt Smith</h2>
         <div class="matt-block">
-          <p>
-            We're exploring a partnership with <strong>Matt Smith</strong> as the
-            American-facing contact — club talks, pre-trip calls, and straight
-            answers about gear, fitness, and why NZ instead of Alaska this year.
-          </p>
-          <p>
-            Ideal if you'd rather hear it from a midwestern angler than a brochure.
-            Contact form below goes to the same inbox until Matt's line is live.
-          </p>
+          <img src="images/mascot-angler.svg" alt="" width="200" height="260" aria-hidden="true" />
+          <div>
+            <p>
+              <strong>Matt Smith</strong> is your U.S. contact for Fish New
+              Zealand — happy to walk through dates, gear, fitness, and what a
+              typical day on the river or boat looks like.
+            </p>
+            <p>
+              Reach out through the form below, or ask for Matt when you call.
+              He'll get you straight answers before you put a deposit down.
+            </p>
+          </div>
         </div>
       </section>
 
       <section id="contact">
-        <p class="section-label">Book / inquire</p>
-        <h2 class="section-title">Request dates or pay a deposit</h2>
+        <p class="section-label">
+          <img src="images/badge-star.svg" alt="" width="18" height="18" />
+          Book your trip
+        </p>
+        <h2 class="section-title">Request dates &amp; pricing</h2>
         <p class="section-intro">
-          Flights are not included — plan on flying into Auckland from your US
-          hub (ORD, MSP, DEN, DFW, etc.). We'll confirm availability and send a
-          Stripe deposit link when pricing is finalized.
+          Plan on flying into Auckland. Tell us your preferred month, group
+          size, and whether you'd like the optional rafting add-on — we'll
+          reply with availability and next steps.
         </p>
 
         <div class="book-panel">
@@ -321,13 +398,11 @@
                 id="message"
                 name="message"
                 rows="4"
-                placeholder="Group size, experience level, questions for Matt…"
+                placeholder="Group size, fishing experience, interested in rafting or hot springs…"
               ></textarea>
             </div>
             <div class="full">
-              <button class="btn btn-primary" type="submit">
-                Send inquiry
-              </button>
+              <button class="btn btn-primary" type="submit">Send inquiry</button>
             </div>
           </form>
           <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
@@ -339,8 +414,8 @@
       <div class="footer-inner">
         <p class="footer-mark">FISH NEW ZEALAND</p>
         <p>
-          Trout &amp; deep-sea hosted tours · Tongariro + Mt Maunganui · Land
-          packages only — flights not included.
+          Trout &amp; deep-sea fishing tours · Tongariro · Mt Maunganui · Land
+          packages — you book your flight, we handle the rest.
         </p>
         <p class="credits">
           Photos:
@@ -354,9 +429,9 @@
           (CC BY 3.0),
           <a
             href="https://commons.wikimedia.org/wiki/File:FMIB_35277_Good_specimens_of_trout_taken_from_the_Tongariro_River_The_eleven_fish_weigh_106_lbs.jpeg"
-            >Tongariro trout catch</a
+            >Tongariro trout</a
           >
-          (public domain). Site: plain HTML/CSS/JS, no frameworks.
+          (public domain).
         </p>
       </div>
     </footer>

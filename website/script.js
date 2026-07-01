@@ -26,9 +26,9 @@
       message.textContent =
         "Thanks, " +
         name +
-        ". Stripe checkout for " +
+        "! We received your inquiry for " +
         trip +
-        " is not wired yet — we'll follow up by email with deposit details.";
+        ". We'll reply by email with dates, pricing, and deposit details.";
       message.classList.add("visible");
       form.reset();
     });
